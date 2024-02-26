@@ -1,1 +1,17 @@
 <p>produit works!</p>
+<ul>
+    <table class="table table-bordered">
+        <tr >
+        <th>Ref</th> <th>Prix</th> <th>quentite</th>
+        </tr>
+        <tr *ngFor=" let p_list of Produits">
+    
+
+        <td>{{p_list.ref}}</td> <td>{{p_list.prixUnit}} </td> <td>{{p_list.quentite}}</td>
+    </tr>
+  
+</table>
+ 
+
+  
+</ul>
